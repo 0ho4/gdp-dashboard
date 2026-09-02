@@ -1,16 +1,15 @@
+#--------------------------------------------
+#coded by Ha 
+#Npln
+#--------------------------------------------
 import streamlit as st
 import pandas as pd
 import math
 from pathlib import Path
-
-# Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='GDP dashboard',
-    page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
+    page_icon=':earth_americas:',
 )
-
-# -----------------------------------------------------------------------------
-# Declare some useful functions.
 
 @st.cache_data
 def get_gdp_data():
@@ -59,10 +58,6 @@ def get_gdp_data():
 
 gdp_df = get_gdp_data()
 
-# -----------------------------------------------------------------------------
-# Draw the actual page
-
-# Set the title that appears at the top of the page.
 '''
 # :earth_americas: GDP dashboard
 

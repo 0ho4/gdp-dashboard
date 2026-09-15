@@ -1,7 +1,5 @@
-#--------------------------------------------
-#coded by Ha 
-#Npln
-#--------------------------------------------
+#coded by 3lmok
+#ins0mnia
 import streamlit as st
 import pandas as pd
 import math
